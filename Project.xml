@@ -89,6 +89,6 @@
 	<certificate path="key.keystore" password="andreyworldborder" alias="catto" alias-password="andreyworldborder" if="android" unless="debug" />
 
 	<!-- _________________________________ Custom _______________________________ -->
-
+	<icon path="art/iconOG.png" />
 	<!--Place custom nodes like icons here-->
 </project>
