@@ -1,6 +1,6 @@
 package;
 
-import states.TitleScreen as TitleState
+import states.TitleScreen as TitleState;
 import flixel.FlxGame;
 import openfl.display.Sprite;
 class Main extends Sprite
