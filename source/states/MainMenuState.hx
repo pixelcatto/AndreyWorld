@@ -5,9 +5,9 @@ import flixel.FlxG;
 
 class MainMenuState extends FlxState
 {
-        FlxG.mouse.visible = true;
 	override public function create()
 	{
+		FlxG.mouse.visible = true;
 		super.create();
 	}
 
