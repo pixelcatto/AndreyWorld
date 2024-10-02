@@ -16,7 +16,7 @@ class TitleScreen extends FlxState
 	override public function update(elapsed:Float)
 	{
 		if(FlxG.mouse.justPressed)
-			FlxG.switchState(new MainMenuState);
+			FlxG.switchState(new MainMenuState());
 		super.update(elapsed);
 	}
 }
