@@ -1,5 +1,6 @@
 package states;
 
+import flixel.input.mouse.FlxMouse;
 import flixel.FlxState;
 
 class TitleScreen extends FlxState
