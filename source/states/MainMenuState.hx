@@ -1,13 +1,14 @@
 package states;
 
 import flixel.FlxState;
+import flixel.input.mouse.FlxMouse;
 import flixel.FlxG;
 
 class MainMenuState extends FlxState
 {
 	override public function create()
 	{
-		FlxG.mouse.visible = true;
+		FlxMouse.visible = true;
 		super.create();
 	}
 
