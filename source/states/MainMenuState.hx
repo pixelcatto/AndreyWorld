@@ -8,7 +8,7 @@ class MainMenuState extends FlxState
 {
 	override public function create()
 	{
-		FlxMouse.visible = true;
+		FlxG.mouse.visible = true;
 		super.create();
 	}
 
