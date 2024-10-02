@@ -1,5 +1,6 @@
 package states;
 
+import states.MainMenuState;
 import flixel.input.mouse.FlxMouse;
 import flixel.FlxState;
 
