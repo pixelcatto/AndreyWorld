@@ -9,6 +9,7 @@ class TitleScreen extends FlxState
 {
 	override public function create()
 	{
+		FlxG.mouse.visible = false;
 		super.create();
 	}
 
